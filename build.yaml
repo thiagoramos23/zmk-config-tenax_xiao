@@ -3,4 +3,7 @@ include:
     shield: tenax_xiao_left
   - board: seeeduino_xiao_ble
     shield: tenax_xiao_right
+    shield: settings_reset
+
+
 # there is no settingsreset (needed) for the XIAO
