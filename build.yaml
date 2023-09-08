@@ -3,6 +3,7 @@ include:
     shield: tenax_xiao_left
   - board: seeeduino_xiao_ble
     shield: tenax_xiao_right
+  - board: seeeduino_xiao_ble
     shield: settings_reset
 
 
