@@ -12,7 +12,7 @@ endif
 if SHIELD_tenax_xiao_RIGHT
 
 config ZMK_KEYBOARD_NAME
-	default "tenax_xiao Right"
+	default "tenax_xiao R"
 
 endif
 
