@@ -78,7 +78,7 @@ label= "BASE"                              ;
                 &kp Q        &kp W       &kp E       &kp R       &kp T           &kp Y          &kp U       &kp I       &kp O       &kp P
                 &kp A        &kp S       &kp D       &kp F       &kp G           &kp H          &kp J       &kp K       &kp L       &mt RALT SQT
     &kp Z       &mt LCTRL Z  &kp X       &kp C       &kp V       &kp B           &kp N          &lt SYM M   &kp COMMA   &kp DOT     &kp FSLH  &kp FSLH
-                                        &kp ESC     &kp LSHIFT  &mt LGUI RET    &lt NAV SPACE  &kp BSPC    &kp TAB
+                                         &kp ESC     &kp LSHIFT  &mt LGUI RET    &lt NAV SPACE  &kp BSPC    &kp TAB
                         >;
                 };
 
@@ -112,10 +112,10 @@ label= "NAV"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷      ╷           ╷           ╷             ╷           ╷           ╷           ╷
 
-                &kp Q       &bt N7       &kp N8     &kp N9       &kp 0              &kp CAPS    &kp PG_UP   &kp UP        &kp PG_DN   &kp KP_PLUS
+                &kp Q       &kp N7       &kp N8     &kp N9       &kp 0              &kp CAPS    &kp PG_UP   &kp UP        &kp PG_DN   &kp KP_PLUS
                 &kp A       &kp N4       &kp N5     &kp N6       &kp SEMI           &trans      &kp LEFT    &kp DOWN      &kp RIGHT   &kp KP_MINUS
     &trans      &kp Z       &kp N1       &kp N2     &kp N3       &kp COLON          &trans      &kp KP_PLUS &kp KP_MINUS  &kp SLASH   &kp KP_MULTIPLY &trans
-                                        &kp ESC     &kp LSFT     &kp RET            &kp SPACE   &kp DEL     &kp TAB
+                                         &kp ESC    &kp LSFT     &kp RET            &kp SPACE   &kp DEL     &kp TAB
                         >;
                 };
 
@@ -149,9 +149,9 @@ label= "SYM"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷            ╷               ╷            ╷           ╷           ╷           ╷
 
-                &kp HASH    &kp SEMI    &kp LPAR    &kp RPAR    &kp DQT         &kp c_VOL_DN &kp C_VOL_UP    &kp RA(U)    &kp SQT     &kp DQT
-                &kp PIPE    &kp GT      &kp LBKT    &kp RBKT    &kp COLON       &kp C_MUTE   &kp LS(RA(N4))  &vim_save &vim_quit  &kp RA(O)
-    &trans      &kp LCTRL   &kp PERCENT &trans      &kp UNDER   &kp EQUAL       &kp C_VOL_DN &kp C_VOL_UP    &kp C_PREV  &kp C_NEXT  &kp BSLH   &trans
+                &kp HASH    &kp SEMI    &kp LPAR    &kp RPAR    &kp DQT         &kp C_VOL_DN &kp C_VOL_UP    &kp RA(U)    &kp SQT     &kp DQT
+                &kp PIPE    &kp GT      &kp LBKT    &kp RBKT    &kp COLON       &kp C_MUTE   &kp LS(RA(N4))  &vim_save    &vim_quit   &kp RA(O)
+    &trans      &kp LCTRL   &kp PERCENT &trans      &kp UNDER   &kp EQUAL       &kp C_VOL_DN &kp C_VOL_UP    &kp C_PREV   &kp C_NEXT  &kp BSLH   &trans
                                         &kp ESC     &kp LSHIFT  &mo ADJ         &gif         &kp C_PP        &trans
                         >;
                 };
