@@ -12,7 +12,7 @@
   quick-tap-ms = <100>;
   global-quick-tap;
   flavor = "tap-preferred";
-  tapping-term-ms = <170>;
+  tapping-term-ms = <190>;
 };
 
 / {
@@ -112,7 +112,7 @@ label= "NAV"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷      ╷           ╷           ╷             ╷           ╷           ╷           ╷
 
-    &kp Q       &kp N7       &kp N8     &kp N9       &kp 0              &kp CAPS    &kp PG_UP   &kp UP        &kp PG_DN   &kp KP_PLUS
+    &kp Q       &kp N7       &kp N8     &kp N9       &kp N0             &kp CAPS    &kp PG_UP   &kp UP        &kp PG_DN   &kp KP_PLUS
     &kp A       &kp N4       &kp N5     &kp N6       &kp SEMI           &trans      &kp LEFT    &kp DOWN      &kp RIGHT   &kp KP_MINUS
     &kp Z       &kp N1       &kp N2     &kp N3       &kp COLON          &trans      &kp KP_PLUS &kp KP_MINUS  &kp SLASH   &kp KP_MULTIPLY
                              &kp ESC    &kp LSFT     &kp RET            &kp SPACE   &kp DEL     &kp TAB
@@ -151,8 +151,8 @@ label= "SYM"                               ;
 
     &kp HASH    &kp SEMI    &kp LPAR    &kp RPAR    &kp DQT         &kp C_VOL_DN &kp C_VOL_UP    &kp RA(U)    &kp SQT     &kp DQT
     &kp PIPE    &kp GT      &kp LBKT    &kp RBKT    &kp COLON       &kp C_MUTE   &kp LS(RA(N4))  &vim_save    &vim_quit   &kp RA(O)
-    &kp LCTRL   &kp PERCENT &trans      &kp UNDER   &kp EQUAL       &kp C_VOL_DN &kp C_VOL_UP    &kp C_PREV   &kp C_NEXT  &kp BSLH
-                            &kp ESC     &kp LSHIFT  &mo ADJ         &gif         &kp C_PP        &trans
+    &kp LCTRL   &kp PERCENT &kp MINUS   &kp UNDER   &kp EQUAL       &kp C_VOL_DN &kp C_VOL_UP    &kp C_PREV   &kp C_NEXT  &kp BSLH
+                            &kp ESC     &kp LSHIFT  &mo ADJ         &kp C_VOL_DN &kp C_VOL_UP    &trans
                         >;
                 };
 
