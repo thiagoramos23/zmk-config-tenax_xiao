@@ -115,7 +115,7 @@ label= "NAV"                               ;
     &kp Q       &kp N7       &kp N8     &kp N9       &kp N0             &kp CAPS    &kp PG_UP   &kp PG_DN     &kp END     &kp KP_PLUS
     &kp A       &kp N4       &kp N5     &kp N6       &kp SEMI           &kp LEFT    &kp DOWN    &kp UP        &kp RIGHT   &kp KP_MINUS
     &kp Z       &kp N1       &kp N2     &kp N3       &kp COLON          &trans      &kp KP_PLUS &kp KP_MINUS  &kp SLASH   &kp KP_MULTIPLY
-                             &kp ESC    &kp LSFT     &kp RET            &kp SPACE   &kp DEL     &kp TAB
+                             &kp ESC    &kp LSFT     &mt LGUI RET       &kp SPACE   &kp DEL     &kp TAB
                         >;
                 };
 
