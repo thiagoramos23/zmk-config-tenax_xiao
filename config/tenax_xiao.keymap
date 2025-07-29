@@ -140,7 +140,7 @@ label= "SYM"                               ;
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 //             ┃     #     ┃     ;     ┃     (     ┃     )     ┃     "     ┃   ┃   VOL-    ┃   VOL+    ┃     Ü     ┃     '     ┃     "     ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃     |     ┃     >     ┃     [     ┃     ]     ┃     :     ┃   ┃   MUTE    ┃   YEN     ┃   EURO    ┃  POUND    ┃     Ö     ┃
+//             ┃     |     ┃     >     ┃     [     ┃     ]     ┃     :     ┃   ┃   MUTE    ┃   YEN     ┃     `     ┃     \     ┃     Ö     ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃           ┃  EMAIL1   ┃     %     ┃     -     ┃     _     ┃     =     ┃   ┃   VOL-    ┃   VOL+    ┃   LAST    ┃   NEXT    ┃     \     ┃           ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -152,7 +152,7 @@ label= "SYM"                               ;
     &kp HASH    &kp SEMI    &kp LPAR    &kp RPAR    &kp DQT         &kp C_VOL_DN &kp C_VOL_UP    &kp RA(U)    &kp SQT     &kp DQT
     &kp PIPE    &kp GT      &kp LBKT    &kp RBKT    &kp COLON       &kp C_MUTE   &kp LS(RA(N4))  &kp GRAVE    &kp BSLH    &kp RA(O)
     &kp LCTRL   &kp PERCENT &kp MINUS   &kp UNDER   &kp EQUAL       &kp C_VOL_DN &kp C_VOL_UP    &kp C_PREV   &kp C_NEXT  &kp BSLH
-                            &kp ESC     &kp LSHIFT  &mo ADJ         &kp C_VOL_DN &kp C_VOL_UP    &trans
+                            &kp ESC     &kp LSHIFT  &mo ADJ         &trans       &kp C_VOL_UP    &trans
                         >;
                 };
 
